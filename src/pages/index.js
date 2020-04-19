@@ -56,7 +56,7 @@ export default ({ data, location }) => {
 
   const selectCategory = category => {
     setCategory(category)
-    ScrollManager.go(DEST_POS)
+    // ScrollManager.go(DEST_POS)
   }
 
   const onScroll = () => {

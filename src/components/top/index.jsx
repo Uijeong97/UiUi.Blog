@@ -5,7 +5,7 @@ import { GitHubIcon } from '../social-share/github-icon'
 import './index.scss'
 
 export const Top = ({ title, location, rootPath }) => {
-  const isRoot = location.pathname === rootPath
+  const isRoot = false
   return (
     <div className="top">
       {!isRoot && (
