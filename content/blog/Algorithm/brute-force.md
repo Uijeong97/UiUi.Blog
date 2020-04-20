@@ -2,6 +2,7 @@
 title: '[Algorithm] 브루트 포스(Brute Force) 완벽정리'
 date: 2020-04-20 15:04:11
 category: Algorithm
+thumbnail: './images/color.png'
 draft: false
 ---
 
