@@ -28,7 +28,7 @@ Sorting Algorithm 은 크게 Comparisons 방식과 Non-Comparisons 방식으로 
 계수정렬(Count Sort), 기수정렬(Radix Sort), 버킷정렬(Bucket Sort)
 
 ## 2. 도구
-#### Sorting Algorithm's Complexity 정리
+* **Sorting Algorithm's Complexity 정리**
 
 |   Algorithm    | Space Complexity | (average) Time Complexity | (worst) Time Complexity |
 | :------------: | :--------------: | :-----------------------: | :---------------------: |
@@ -41,6 +41,45 @@ Sorting Algorithm 은 크게 Comparisons 방식과 Non-Comparisons 방식으로 
 |   **Count sort**   |      O(n+k)      |           O(n)            |          O(n+k)           |
 |   Radix sort   |       O(n+k)       |           O(n)            |          O(dn)           |
 |   Bucket sort   |     O(n+k)       |           O(n)            |          O(n^2)           |
+
+<br>
+
+* **Quick Sort**
+
+Python 에서 sort 함수는 Quick Sort이다.
+```python
+>>> L.sort()
+```
+
+* **Count Sort**
+
+계수정렬은 원소간 비교없이 정렬할 수 있는 정렬 방법이다.
+
+모든 원소는 양의 정수여야 하며 일정 수(k) 이하일떄 사용한다.
+
+k : 가장 큰 수<br>
+C : len(L) 만큼 개수 갖는 리스트<br>
+count : lenL 만큼 반복<br>
+rearrange : 0~k 까지 C[j]만큼 리스트에 재배열<br>
+
+```python
+def count_sort(L):
+    k = max(L) + 1
+    C = [0] * k
+    lenL = len(L)
+
+    # count
+    for j in range(lenL):
+        C[L[j]] = C[L[j]] + 1
+    
+    # rearrange
+    i = 0
+    for j in range(k):
+        while C[j] > 0:
+            L[i] = j
+            C[j] = C[j] - 1
+            i += 1
+```
 
 
 ## 3. 느낀점
