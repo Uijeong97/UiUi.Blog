@@ -3,6 +3,7 @@ title: '[Technical-Interview] 초보자를 위한 기술면접 완벽정리'
 date: 2020-05-08 01:05:36
 category: Interview
 thumbnail: './images/color.png'
+tags: ["animals", "Chicago", "zoos"]
 draft: false
 ---
 
