@@ -20,7 +20,7 @@
 </p>
 
 ## Blog
-<https://uiui-blog.netlify.app>
+<https://uiui.blog/>
 
 ## Authors
 
