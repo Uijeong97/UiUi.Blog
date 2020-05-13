@@ -54,10 +54,6 @@ export function Head({ description, lang, meta, keywords, title }) {
                 name: `google-site-verification`,
                 content: `HdcKlsNU33XNu_Lbeqru23zJxjjd7QGX_m_TRzIPQ10`,
               },
-              {
-                name: `naver-site-verification`,
-                content: `c6bd6f34070829a51e4bc6e808181b94d33b0060`,
-              }
             ]
               .concat(
                 keywords.length > 0
@@ -68,7 +64,9 @@ export function Head({ description, lang, meta, keywords, title }) {
                   : []
               )
               .concat(meta)}
-          />
+          >
+            <meta name="naver-site-verification" content="c6bd6f34070829a51e4bc6e808181b94d33b0060" />
+          </Helmet>
         )
       }}
     />
