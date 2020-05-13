@@ -64,9 +64,7 @@ export function Head({ description, lang, meta, keywords, title }) {
                   : []
               )
               .concat(meta)}
-          >
-            <meta name="naver-site-verification" content="c6bd6f34070829a51e4bc6e808181b94d33b0060" />
-          </Helmet>
+          />
         )
       }}
     />
