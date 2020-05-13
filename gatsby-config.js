@@ -74,6 +74,14 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://uiui.blog',
+        sitemap: 'https://uiui.blog/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: metaConfig.title,
