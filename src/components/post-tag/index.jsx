@@ -1,5 +1,7 @@
 import React from 'react'
 import { capitalize } from '../../utils/string'
+import { Link } from "gatsby"
+import kebabCase from "lodash/kebabCase"
 import './index.scss'
 
 function cssSafe(str) {
@@ -15,7 +17,9 @@ export const Tags = ({ items }) => {
                     key={item}
                     style={{ marginRight: 10 }}
                 >
-                    {capitalize(item)}
+                    <Link to={`/tags/${kebabCase(item)}`}>
+                        {capitalize(item)}
+                    </Link>
                 </span>
             ))}
         </div>

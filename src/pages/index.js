@@ -7,6 +7,7 @@ import { Bio } from '../components/bio'
 import { Head } from '../components/head'
 import { Category } from '../components/category'
 import { Contents } from '../components/contents'
+import { Tagsfold } from '../components/tags-fold'
 
 import * as ScrollManager from '../utils/scroll'
 import * as Storage from '../utils/storage'
@@ -77,6 +78,10 @@ export default ({ data, location }) => {
       <Bio />
       <Category
         categories={categories}
+        category={category}
+        selectCategory={selectCategory}
+      />
+      <Tagsfold
         category={category}
         selectCategory={selectCategory}
       />

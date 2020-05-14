@@ -45,6 +45,8 @@ Sorting Algorithm 은 크게 Comparisons 방식과 Non-Comparisons 방식으로 
 
 <br>
 
+### 3. 방법
+
 * **Quick Sort**
 
 Python 에서 sort 함수는 Quick Sort이다.
@@ -83,7 +85,7 @@ def count_sort(L):
 ```
 
 
-## 3. 느낀점
+## 4. 느낀점
 
 시간과 공간효율성을 확인한다. 시간제한이 유독 짧을 때는 분포기반 정렬을 사용하고, 나머지는 일단 Quick Sort 로 풀자. 퀵 소트로 안풀리는 경우 추후 기재하겠다.
 
