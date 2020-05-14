@@ -3,6 +3,7 @@ title: '[SQL] SQL 완벽정리'
 date: 2020-04-22 22:04:78
 category: SQL
 thumbnail: './images/color.png'
+tags: ["SQL"]
 draft: false
 ---
 

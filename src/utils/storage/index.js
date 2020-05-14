@@ -31,6 +31,18 @@ export function setCategory(val) {
   return setValueToSessionStorage(`${SESSION_STORAGE_KEY}/category`, val)
 }
 
+export function getTag(defaultValue) {
+  return (
+    getValueFromSessionStorage(`${SESSION_STORAGE_KEY}/tag`) ||
+    defaultValue
+  )
+}
+
+export function setTag(val) {
+  return setValueToSessionStorage(`${SESSION_STORAGE_KEY}/tag`, val)
+}
+
+
 export function getData() {
   return getValueFromLocalStorage(LOCAL_STORAGE_KEY)
 }

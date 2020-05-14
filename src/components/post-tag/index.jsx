@@ -8,7 +8,7 @@ function cssSafe(str) {
     return encodeURIComponent(str.toLowerCase()).replace(/%[0-9A-F]{2}/gi, '')
 }
 
-export const Tags = ({ items }) => {
+export const Tags = ({ items, selectTag }) => {
     return (
         <div className={`pills-${items?.length}`}>
             {(items || []).map(item => (
@@ -16,10 +16,9 @@ export const Tags = ({ items }) => {
                     className={`pill pill--${cssSafe(item)}`}
                     key={item}
                     style={{ marginRight: 10 }}
+                    onClick={() => selectTag(item)}
                 >
-                    <Link to={`/tags/${kebabCase(item)}`}>
-                        {capitalize(item)}
-                    </Link>
+                    {capitalize(item)}
                 </span>
             ))}
         </div>

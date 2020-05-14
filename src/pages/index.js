@@ -27,9 +27,11 @@ function getDistance(currentPos) {
 export default ({ data, location }) => {
   const initialCount = Storage.getCount(1)
   const initialCategory = Storage.getCategory(CATEGORY_TYPE.ALL)
+  const initialTag = Storage.getTag(CATEGORY_TYPE.ALL)
   const [count, setCount] = useState(initialCount)
   const countRef = useRef(count)
   const [category, setCategory] = useState(initialCategory)
+  const [tag, setTag] = useState(initialTag)
 
   const { siteMetadata } = data.site
   const { countOfInitialPost } = siteMetadata.configs
@@ -57,7 +59,13 @@ export default ({ data, location }) => {
 
   const selectCategory = category => {
     setCategory(category)
-    // ScrollManager.go(DEST_POS)
+    setTag(category)
+    ScrollManager.go(DEST_POS)
+  }
+
+  const selectTag = tag => {
+    setTag(tag)
+    ScrollManager.go(DEST_POS)
   }
 
   const onScroll = () => {
@@ -84,12 +92,16 @@ export default ({ data, location }) => {
       <Tagsfold
         category={category}
         selectCategory={selectCategory}
+        tag={tag}
+        selectTag={selectTag}
       />
       <Contents
         posts={posts}
         countOfInitialPost={countOfInitialPost}
         count={count}
         category={category}
+        tag={tag}
+        selectTag={selectTag}
       />
     </Layout>
   )

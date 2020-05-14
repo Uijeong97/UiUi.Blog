@@ -5,12 +5,16 @@ import { TARGET_CLASS } from '../../utils/visible'
 
 import './index.scss'
 
-export const ThumbnailItem = ({ node }) => (
-  <Link className={`thumbnail ${TARGET_CLASS}`} to={node.fields.slug}>
+export const ThumbnailItem = ({ node, selectTag }) => (
+  <div className={`thumbnail ${TARGET_CLASS}`} >
     <div key={node.fields.slug}>
-      <h3 className="thumbnail-title">{node.frontmatter.title || node.fields.slug}</h3>
-      <Tags items={node.frontmatter.tags} />
-      <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+      <Link to={node.fields.slug}>
+        <h3 className="thumbnail-title">{node.frontmatter.title || node.fields.slug}</h3>
+      </Link>
+      <Tags items={node.frontmatter.tags} selectTag={selectTag} />
+      <Link to={node.fields.slug}>
+        <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+      </Link>
     </div>
-  </Link>
+  </div>
 )
