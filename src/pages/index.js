@@ -55,6 +55,7 @@ export default ({ data, location }) => {
     IOManager.refreshObserver()
     Storage.setCount(count)
     Storage.setCategory(category)
+    Storage.setTag(tag)
   })
 
   const selectCategory = category => {
