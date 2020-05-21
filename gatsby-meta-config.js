@@ -12,6 +12,12 @@ module.exports = {
     linkedin: ``, // Your LinkedIn account
   },
   icon: `content/assets/favicon.png`, // Add your favicon
+  thumbnail: `content/__about/profile.jpeg`,
+  resume: {
+    title: 'About 정의정(UiUi)',
+    description: 'docs: Update RESUME.md for introducing myself',
+    thumbnail: `content/__about/profile.jpeg`,
+  },
   keywords: [`blog`],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.

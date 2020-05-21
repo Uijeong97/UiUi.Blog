@@ -1,0 +1,23 @@
+.about {
+    h1 {
+        border-left: 12px solid #FFC254;
+        padding-left: 8px;
+        padding-bottom: 0px;
+      }
+    
+      h3 {
+        position: relative;
+        display: inline-block;
+        &::before {
+          position: relative;
+          display: inline-block;
+          top: -12px;
+          left: -2px;
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+          background-color: #ED5565;
+          content: '';
+        }
+      }
+}
