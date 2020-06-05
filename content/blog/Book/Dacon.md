@@ -3,7 +3,7 @@ title: '[개발책리뷰] 데이콘 관련 도서리뷰를 진행하면서'
 date: 2020-05-22 02:05:95
 category: Book
 thumbnail: './images/color.png'
-tags: ["BookReview","Dacon"]
+tags: ["Review","Dacon"]
 draft: false
 ---
 

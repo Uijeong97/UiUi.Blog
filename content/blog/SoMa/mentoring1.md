@@ -3,7 +3,7 @@ title: '[멘토특강] 최신 인공지능 기술 (CVPR, NeuralPS 등)'
 date: 2020-05-25 14:05:71
 category: SoMa
 thumbnail: './images/color.png'
-tags: ["특강"]
+tags: ["SoMa", "특강"]
 draft: false
 ---
 
