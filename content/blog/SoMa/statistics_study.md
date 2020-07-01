@@ -3,7 +3,7 @@ title: '[프로그래밍 기초 통계] 통계 완벽 정리'
 date: 2020-06-21 21:06:29
 category: SoMa
 thumbnail: './images/color.png'
-tags: ["교육"]
+tags: ["SoMa", "교육"]
 draft: false
 ---
 
