@@ -1,5 +1,5 @@
 ---
-title: '[프로그래밍 기초 통계]'
+title: '[프로그래밍 기초 통계] 통계 완벽 정리'
 date: 2020-06-21 21:06:29
 category: SoMa
 thumbnail: './images/color.png'
@@ -953,7 +953,9 @@ np.random.hypergeometric(ngood, nbad, nsample, size)
 * 예시)
     - 정육면체 주사위의 한 면이 나올 확률을 모두 1/6로 같음
 
+
 ![균일 분포](./images/statistics_study/uniform.png)
+
 
 ```python
 stat_uni = scipy.stats.uniform(a, b) # 균일 분포 확률 변수
