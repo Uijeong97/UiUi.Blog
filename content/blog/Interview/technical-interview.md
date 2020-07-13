@@ -4,7 +4,7 @@ date: 2020-05-08 01:05:36
 category: Interview
 thumbnail: './images/color.png'
 tags: ["Interview"]
-draft: false
+draft: true
 ---
 
 본 게시물은 [JaeYeopHan](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/)를 참고하여 정리해둔 것입니다.

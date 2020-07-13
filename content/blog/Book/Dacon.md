@@ -4,7 +4,7 @@ date: 2020-05-22 02:05:95
 category: Book
 thumbnail: './images/color.png'
 tags: ["Review","Dacon"]
-draft: false
+draft: true
 ---
 
 이 글은 데이콘 관련 도서 리뷰를 진행하면서 지난 나의 데이터 분석 입문과정에 대한 회고 글입니다.
