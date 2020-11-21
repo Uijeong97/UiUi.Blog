@@ -2,20 +2,20 @@ module.exports = {
   title: `UiUi.ßlog`,
   description: `기술블로그입니다.`,
   author: `정의정, Uijeong Jeong`,
-  introduction: `컴퓨터공학과 학생입니다. 공부 또는 프로젝트 후에 일기처럼 나중에 볼 수 있도록 글을 작성하려고 합니다.`,
+  introduction: `우리 삶의 스마트화를 이끄는 소프트웨어를 개발하고 싶은 개발자입니다. 저는 소통을 중시하고 열정적인 팀 프로젝트를 지향합니다.`,
   siteUrl: `https://uiui.blog`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
     github: `Uijeong97`, // Your GitHub account
     medium: ``, // Your Medium account
-    facebook: ``, // Your Facebook account
+    facebook: `uiui.jeong`, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
   },
   icon: `content/assets/favicon.png`, // Add your favicon
   thumbnail: `content/__about/profile.jpeg`,
   resume: {
     title: 'About 정의정(UiUi)',
-    description: 'docs: Update RESUME.md for introducing myself',
+    description: '우리 삶의 스마트화를 이끄는 개발자를 꿈꾸며',
     thumbnail: `content/__about/profile.jpeg`,
   },
   keywords: [`blog`],

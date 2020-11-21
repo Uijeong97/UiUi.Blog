@@ -1,0 +1,10 @@
+- 프로젝트 초기 Stealth UAV를 위한 드론 설계
+  - Stealth 기능 최적화를 위해 유체역학 효과 도입한 드론 설계
+  - 하드웨어/소프트웨어로 팀을 나눠 진행
+- 드론 제어를 위한 서버구축
+  - os 설치 및 환경설정 후, 고정IP 할당. RDP 방식으로 라즈베리파이를 컴퓨터에서 제어할 수 있도록 함.
+- 코드 리펙토링으로 센서/모터 모듈화
+  - 센서/모터를 라즈베리파이 GPIO에 연결하고, 각각의 데이터를 받아오고 모터를 제어하는 코드 작업을 함.
+  - 이 과정에서 클래스화하여 메인에서 모듈을 임포트하는 방식으로 코드 작업 후, 키 인터럽트로 드론 제어.
+- Stealth 관련 연구 지속하여 IEEE IRC 2020 논문 게재
+  - Dongyoon Shin, Hyeji Kim, Jihyuk Gong, Uijeong Jeong, Yeeun Jo and Eric Matson, "Stealth UAV through Coandă Effect", IEEE IRC 2020

@@ -1,0 +1,7 @@
+- Pose Estimation Model 개선
+  - 기존 Pose Estimation Model의 관절 꼬임 문제를 Refine Function을 도입해 개선
+- Feedback Algorithm 개발
+  - Posture에 대한 피드백은 추출된 관절 바탕으로 로직 구현.
+  - Speed에 대한 피드백은 Ground Truth 분포를 형성하고 로직 구현.
+- iOS 어플리케이션 개발
+  - 사용자 운동 데이터를 모티베이션 증진을 위한 어플리케이션 개발.
