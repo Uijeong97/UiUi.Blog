@@ -9,7 +9,7 @@ export const Tagsfold = ({ category, selectCategory, tag, selectTag }) => {
             <h2 className="custom-h2" onClick={() => selectCategory(category)}>{category}</h2>
             {
                 (tag != category && tag != "All") &&
-                <div className="custom-h2">/
+                <div className="slash">/
                 <h2 className="custom-h2" onClick={() => selectTag(tag)}>{tag}</h2>
                 </div>
             }

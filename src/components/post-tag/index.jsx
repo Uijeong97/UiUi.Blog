@@ -10,7 +10,7 @@ function cssSafe(str) {
 
 export const Tags = ({ items, selectTag }) => {
     return (
-        <div className={`pills-${items?.length}`}>
+        <div className={`pills-${items.length}`}>
             {(items || []).map(item => (
                 <span
                     className={`pill pill--${cssSafe(item)}`}
@@ -18,7 +18,7 @@ export const Tags = ({ items, selectTag }) => {
                     style={{ marginRight: 10 }}
                     onClick={() => selectTag(item)}
                 >
-                    {capitalize(item)}
+                    # {capitalize(item)}
                 </span>
             ))}
         </div>

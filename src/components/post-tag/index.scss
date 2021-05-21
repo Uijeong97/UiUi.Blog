@@ -1,35 +1,36 @@
 .pills-undefined {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .pill {
-    font-size: 0.8rem;
-    display: inline-flex;
-    align-items: center;
-    padding: 0.6rem;
-    height: 1.2rem;
-    margin: 0;
-    margin-bottom: 0.7rem;
-    margin-right: 0.2rem;
-    border-radius: 1.2rem;
-    background-color: rgba(165, 231, 215, 0.767);
-    color: rgba(0, 0, 0, 0.84);
-    cursor: pointer;
+  font-size: 0.8rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.6rem;
+  height: 1.2rem;
+  margin: 0;
+  margin-bottom: 0.7rem;
+  margin-right: 0.2rem;
+  border-radius: 0.2rem;
+  background-color: #bb8e5825;
+  color: #bb8038;
+  cursor: pointer;
 }
- 
+
 .pill:not(:first-child) {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 .pills a {
-    color: rgba(0, 0, 0, 0.84);
-    box-shadow: none;
+  color: rgba(0, 0, 0, 0.84);
+  box-shadow: none;
 }
 
 .pill:focus,
 .pill:hover,
 .pill:active {
-    background-color: #b6b6f9;
-    border-radius: 1em;
-    cursor: pointer;
+  background-color: #bb8038;
+  color: #fff;
+  border-radius: 0.2em;
+  cursor: pointer;
 }

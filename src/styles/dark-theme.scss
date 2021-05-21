@@ -3,20 +3,32 @@ body.dark {
   text-shadow: $dark-text-shadow;
   color: $dark-light-font-color;
 
+  .top {
+    .link {
+      color: $dark-top-header-text-color;
+    }
+    .post {
+      color: $dark-top-header-text-color;
+    }
+    .about {
+      color: $dark-top-header-text-color;
+    }
+  }
+
   // home
   .home-header {
     color: $dark-light-font-color;
   }
 
   .bio {
-    .author-name-content {
-      background-color: $dark-category-border-color;
-    }
     .author-introduction {
       color: $dark-middle-font-color;
     }
     a {
       color: $dark-link-color;
+    }
+    .author-name-content {
+      color: $dark-light-font-color;
     }
   }
 

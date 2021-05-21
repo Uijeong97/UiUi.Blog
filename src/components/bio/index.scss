@@ -2,31 +2,35 @@
 
 .bio {
   margin-bottom: 24px;
+  padding: 24px;
+  background-color: #222222e8;
+  border-radius: 0.3em;
+  box-shadow: 5em;
 
   .author-description {
-    display: flex;
+    display: inline-block;
   }
 
-  .author-image {
-    margin-top: 12px;
-    margin-right: 12px;
+  .author-image-name {
+    display: flex;
+    align-items: center;
     margin-bottom: 0;
     min-width: 72px;
   }
 
-  .author-name-prefix {
-    font-size: 90%;
-    margin-right: 4px;
+  .author-name-content {
+    font-size: 95%;
+    font-weight: bolder;
+    transform-origin: center;
+    margin-left: 8px;
   }
 
-  .author-name-content {
-    display: inline-block;
-    font-size: 95%;
-    padding: 2px 6px;
-    font-weight: bolder;
-    border-radius: 8px;
-    transform-origin: center;
-    animation: flutter 2s infinite linear;
+  .author-name-content:hover {
+    animation: colorRotate 2.5s linear 0s infinite;
+  }
+
+  .author-introduction-block {
+    display: block;
   }
 
   .author-introduction {
@@ -88,5 +92,23 @@
   }
   100% {
     transform: rotate(0deg);
+  }
+}
+
+@keyframes colorRotate {
+  from {
+    color: #6666ff;
+  }
+  10% {
+    color: #0099ff;
+  }
+  50% {
+    color: #00ff00;
+  }
+  75% {
+    color: #ff3399;
+  }
+  100% {
+    color: #6666ff;
   }
 }

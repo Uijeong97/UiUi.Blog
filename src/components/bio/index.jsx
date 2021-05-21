@@ -14,43 +14,46 @@ export const Bio = () => (
         <div className="bio">
           <div className="author">
             <div className="author-description">
-              <Image
-                className="author-image"
-                fixed={data.avatar.childImageSharp.fixed}
-                alt={author}
-                style={{
-                  borderRadius: `100%`,
-                }}
-              />
-              <div className="author-name">
-                <span className="author-name-prefix">Written by</span>
-                <Link to={'/about'} className="author-name-content">
-                  <span>@{author}</span>
-                </Link>
+              <div className="author-image-name">
+                <Image
+                  className="author-image"
+                  fixed={data.avatar.childImageSharp.fixed}
+                  alt={author}
+                  style={{
+                    borderRadius: `100%`,
+                  }}
+                />
+                <div className="author-name">
+                  <Link to={'/about'} className="author-name-content">
+                    <span>{author}</span>
+                  </Link>
+                </div>
+              </div>
+              <div className="author-introduction-block">
                 <div className="author-introduction">{introduction}</div>
-                <p className="author-socials">
-                  {social.github && (
-                    <a href={`https://github.com/${social.github}`}>GitHub</a>
-                  )}
-                  {social.medium && (
-                    <a href={`https://medium.com/${social.medium}`}>Medium</a>
-                  )}
-                  {social.twitter && (
-                    <a href={`https://twitter.com/${social.twitter}`}>
-                      Twitter
-                    </a>
-                  )}
-                  {social.facebook && (
-                    <a href={`https://www.facebook.com/${social.facebook}`}>
-                      Facebook
-                    </a>
-                  )}
-                  {social.linkedin && (
-                    <a href={`https://www.linkedin.com/in/${social.linkedin}/`}>
-                      LinkedIn
-                    </a>
-                  )}
-                </p>
+                  <p className="author-socials">
+                    {social.github && (
+                      <a href={`https://github.com/${social.github}`}>GitHub</a>
+                    )}
+                    {social.medium && (
+                      <a href={`https://medium.com/${social.medium}`}>Medium</a>
+                    )}
+                    {social.twitter && (
+                      <a href={`https://twitter.com/${social.twitter}`}>
+                        Twitter
+                      </a>
+                    )}
+                    {social.facebook && (
+                      <a href={`https://www.facebook.com/${social.facebook}`}>
+                        Facebook
+                      </a>
+                    )}
+                    {social.linkedin && (
+                      <a href={`https://www.linkedin.com/in/${social.linkedin}/`}>
+                        LinkedIn
+                      </a>
+                    )}
+                  </p>
               </div>
             </div>
           </div>

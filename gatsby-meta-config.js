@@ -1,5 +1,5 @@
 module.exports = {
-  title: `UiUi.ßlog`,
+  title: `uiui.blog`,
   description: `기술블로그입니다.`,
   author: `정의정, Uijeong Jeong`,
   introduction: `우리 삶의 스마트화를 이끄는 소프트웨어를 개발하고 싶은 개발자입니다. 저는 소통을 중시하고 열정적인 팀 프로젝트를 지향합니다.`,
@@ -20,8 +20,8 @@ module.exports = {
   },
   keywords: [`blog`],
   comment: {
-    disqusShortName: '', // Your disqus-short-name. check disqus.com.
-    utterances: 'Uijeong97/UiUi.Blog', // Your repository for archive comment
+    disqusShortName: 'uiui-blog', // Your disqus-short-name. check disqus.com.
+    utterances: '', // Your repository for archive comment
   },
   configs: {
     countOfInitialPost: 10, // Config your initial count of post

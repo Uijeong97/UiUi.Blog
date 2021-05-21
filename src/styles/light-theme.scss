@@ -2,20 +2,32 @@ body.light {
   background-color: $light-background-color;
   text-shadow: $light-text-shadow;
 
+  .top {
+    .link {
+      color: $light-top-header-text-color;
+    }
+    .post {
+      color: $light-top-header-text-color;
+    }
+    .about {
+      color: $light-top-header-text-color;
+    }
+  }
+
   // home
   .home-header {
     color: $dark-gray;
   }
 
   .bio {
-    .author-name-content {
-      background-color: $light-category-border-color;
-    }
     .author-introduction {
-      color: $middle-gray;
+      color: $dark-middle-font-color;
     }
     a {
       color: $light-link-color;
+    }
+    .author-name-content {
+      color: $dark-light-font-color;
     }
   }
 
