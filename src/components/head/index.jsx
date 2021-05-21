@@ -16,7 +16,7 @@ export function Head({ description, lang, meta, keywords, title }) {
               lang,
             }}
             title={title}
-            titleTemplate={`${data.site.siteMetadata.title} | 정의정의 기술블로그`}
+            titleTemplate={`${data.site.siteMetadata.title} | 정의정의 그냥블로그`}
             meta={[
               {
                 name: `description`,

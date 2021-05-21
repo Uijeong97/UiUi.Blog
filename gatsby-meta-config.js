@@ -2,7 +2,8 @@ module.exports = {
   title: `uiui.blog`,
   description: `기술블로그입니다.`,
   author: `정의정, Uijeong Jeong`,
-  introduction: `우리 삶의 스마트화를 이끄는 소프트웨어를 개발하고 싶은 개발자입니다. 저는 소통을 중시하고 열정적인 팀 프로젝트를 지향합니다.`,
+  introduction: `우리 삶의 스마트화를 이끄는 엔지니어를 꿈꾸는 개발자 정의정입니다. 저는 이상을 실현하고자 도전하고 성장하는 것을 좋아하지만,
+  무엇보다 도전을 책임지는 사람이 되고자 노력합니다.`,
   siteUrl: `https://uiui.blog`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
@@ -27,7 +28,7 @@ module.exports = {
     countOfInitialPost: 10, // Config your initial count of post
   },
   sponsor: {
-    buyMeACoffeeId: 'jbee',
+    buyMeACoffeeId: 'uiui.j',
   },
   share: {
     facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
