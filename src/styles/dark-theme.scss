@@ -32,6 +32,12 @@ body.dark {
     }
   }
 
+  .tags-fold {
+    .custom-hr2 {
+      background: rgba(255, 255, 255, 0.1);
+    }
+  }
+
   .category-container {
     border-top: 1px solid $dark-category-border-color;
     border-bottom: 1px solid $dark-category-border-color;
