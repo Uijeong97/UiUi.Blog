@@ -1,3 +1,5 @@
+@import '../../styles/variables.scss';
+
 .pills-undefined {
   margin-bottom: 1rem;
 }
@@ -12,8 +14,8 @@
   margin-bottom: 0.7rem;
   margin-right: 0.2rem;
   border-radius: 0.2rem;
-  background-color: #bb8e5825;
-  color: #bb8038;
+  background-color: $tag-background-color;
+  color: $tag-text-color;
   cursor: pointer;
 }
 
@@ -29,7 +31,7 @@
 .pill:focus,
 .pill:hover,
 .pill:active {
-  background-color: #bb8038;
+  background-color: $tag-text-color;
   color: #fff;
   border-radius: 0.2em;
   cursor: pointer;
