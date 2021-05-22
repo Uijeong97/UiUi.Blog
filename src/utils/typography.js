@@ -25,7 +25,6 @@ GitHubTheme.overrideThemeStyles = () => {
       fontWeight: 800,
       lineHeight: 1.2,
       fontFamily: 'PT-Sans',
-      color: `#000000`,
     },
 
     h2: {
@@ -34,7 +33,6 @@ GitHubTheme.overrideThemeStyles = () => {
       marginTop: '56px',
       marginBottom: '20px',
       fontFamily: 'PT-Sans',
-      color: `#000000`,
     },
 
     ul: {
