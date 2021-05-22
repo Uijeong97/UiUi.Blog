@@ -6,7 +6,7 @@ GitHubTheme.overrideThemeStyles = () => {
     a: {
       boxShadow: `none`,
       textDecoration: `none`,
-      color: `#0687f0`,
+      color: `#af8147`,
     },
     'a.gatsby-resp-image-link': {
       boxShadow: `none`,
@@ -38,6 +38,16 @@ GitHubTheme.overrideThemeStyles = () => {
     li: {
       marginBottom: '2px',
     },
+
+    '::selection': {
+      background: `#af8147`,
+      color: `#fff`,
+    },
+
+    '::-moz-selection': {
+      background: `#af8147`,
+      color: `#fff`,
+    }
   }
 }
 
