@@ -1,9 +1,9 @@
 ---
 title: 건강한 개발자로 성장하는 것
 date: 2020-12-22 00:12:46
-category: Essay
+category: daily
 thumbnail: './images/color.png'
-tags: ['Essay', 'Diary']
+tags: ['daily', 'diary']
 draft: false
 ---
 

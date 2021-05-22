@@ -1,9 +1,9 @@
 ---
 title: '[Ubuntu 18.04] 의존성 문제, cuda dependencies, apt --fix-broken install'
 date: 2020-07-13 14:07:76
-category: SoMa
+category: etc
 thumbnail: './images/color.png'
-tags: ["SoMa", "개발"]
+tags: ['etc', 'error', 'ubuntu', 'cuda']
 draft: false
 ---
 
@@ -37,7 +37,6 @@ apt-get이 의존성 문제 때문에 아예 실행이 안된다.
 
 ![dpkg-deb error](./images/ubuntu/dpkg-deb-err.png)
 
-
 ### 해결 방법
 
 ![solution](./images/ubuntu/solution.png)
@@ -55,7 +54,6 @@ overwrite 해주는 과정이다.
 `sudo apt-get -f install`
 
 `sudo apt-get upgrade`
-
 
 ### 결과
 
