@@ -8,9 +8,10 @@ $top-header-text-color: #aaa;
 
 // body
 $light-background-color: #fff;
-$light-text-shadow: 0 0 0.1px rgba(0, 0, 0, 0.3);
+$light-text-shadow: 0 0 0px rgba(0, 0, 0, 1);
 $light-hover-text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 $light-top-header-text-color: #000000;
+$light-text-color: #313131;
 
 // index
 $dimmed-color: #eef5db;
@@ -47,7 +48,7 @@ $dark-lightest-font-color: #fff;
 $dark-light-font-color: #eeeeee;
 $dark-middle-font-color: #d8d7d7;
 
-$dark-text-shadow: 0 0 0.1px rgba(255, 255, 255, 0.3);
+$dark-text-shadow: 0 0 0.1px rgba(255, 255, 255, 0.1);
 $dark-hover-text-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
 
 $dark-category-item-color: #282c35;
