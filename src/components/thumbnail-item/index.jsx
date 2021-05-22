@@ -11,10 +11,11 @@ export const ThumbnailItem = ({ node, selectTag }) => (
       <Link to={node.fields.slug}>
         <h3 className="thumbnail-title">{node.frontmatter.title || node.fields.slug}</h3>
       </Link>
-      <Tags items={node.frontmatter.tags} selectTag={selectTag} />
+      <div className="thumbnail-date">{node.frontmatter.date}</div>
       <Link to={node.fields.slug}>
         <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
       </Link>
+      <Tags items={node.frontmatter.tags} selectTag={selectTag} />
     </div>
   </div>
 )

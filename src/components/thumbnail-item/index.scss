@@ -1,7 +1,7 @@
 @import '../../styles/variables.scss';
 
 .thumbnail-title {
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.4rem;
 }
 
 .thumbnail {
@@ -21,4 +21,10 @@
 
 .thumbnail.visible {
   opacity: 1;
+}
+
+.thumbnail-date {
+  font-size: 75%;
+  margin-bottom: 0.8rem;
+  font-weight: 300;
 }

@@ -3,10 +3,14 @@ import GitHubTheme from 'typography-theme-github'
 
 GitHubTheme.overrideThemeStyles = () => {
   return {
+    body: {
+      lineHeight: 1.7,
+      color: `#313131`,
+    },
     a: {
       boxShadow: `none`,
       textDecoration: `none`,
-      color: `#0687f0`,
+      color: `#af8147`,
     },
     'a.gatsby-resp-image-link': {
       boxShadow: `none`,
@@ -20,7 +24,7 @@ GitHubTheme.overrideThemeStyles = () => {
     h1: {
       fontWeight: 800,
       lineHeight: 1.2,
-      fontFamily: 'Catamaran',
+      fontFamily: 'PT-Sans',
     },
 
     h2: {
@@ -28,7 +32,7 @@ GitHubTheme.overrideThemeStyles = () => {
       lineHeight: 1.2,
       marginTop: '56px',
       marginBottom: '20px',
-      fontFamily: 'Catamaran',
+      fontFamily: 'PT-Sans',
     },
 
     ul: {
@@ -38,6 +42,16 @@ GitHubTheme.overrideThemeStyles = () => {
     li: {
       marginBottom: '2px',
     },
+
+    '::selection': {
+      background: `#af8147`,
+      color: `#fff`,
+    },
+
+    '::-moz-selection': {
+      background: `#af8147`,
+      color: `#fff`,
+    }
   }
 }
 

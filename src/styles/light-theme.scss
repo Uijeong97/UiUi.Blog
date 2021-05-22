@@ -65,6 +65,9 @@ body.light {
     &:hover {
       text-shadow: $light-hover-text-shadow;
     }
+    .thumbnail-date {
+      color: $light-gray;
+    }
   }
 
   .footer {

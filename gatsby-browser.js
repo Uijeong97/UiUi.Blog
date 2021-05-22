@@ -1,6 +1,5 @@
 // custom typefaces
-require('typeface-noto-sans-kr')
-require('typeface-catamaran')
+require('typeface-pt-sans')
 require('typeface-ibm-plex-mono')
 
 // polyfill
