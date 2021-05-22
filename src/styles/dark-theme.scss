@@ -72,6 +72,9 @@ body.dark {
     &:hover {
       text-shadow: $dark-hover-text-shadow;
     }
+    .thumbnail-date {
+      color: $light-gray;
+    }
   }
 
   .footer {
