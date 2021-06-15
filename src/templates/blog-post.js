@@ -11,6 +11,7 @@ import { SocialShare } from '../components/social-share'
 import { SponsorButton } from '../components/sponsor-button'
 import { Bio } from '../components/bio'
 import { PostNavigator } from '../components/post-navigator'
+import { AdsBlock } from '../components/ads-block'
 import { Disqus } from '../components/disqus'
 import { Utterences } from '../components/utterances'
 import * as ScrollManager from '../utils/scroll'
@@ -47,6 +48,7 @@ export default ({ data, pageContext, location }) => {
       {!!sponsor.buyMeACoffeeId && (
         <SponsorButton sponsorId={sponsor.buyMeACoffeeId} />
       )}
+      <AdsBlock />
       <Elements.Hr />
       <Bio />
       <PostNavigator pageContext={pageContext} />
