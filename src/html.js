@@ -14,6 +14,7 @@ export default class HTML extends React.Component {
           />
           <meta name="naver-site-verification" content="c6bd6f34070829a51e4bc6e808181b94d33b0060" />
           {this.props.headComponents}
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
@@ -25,7 +26,6 @@ export default class HTML extends React.Component {
           />
           {this.props.postBodyComponents}
         </body>
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       </html>
     )
   }

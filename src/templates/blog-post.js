@@ -48,7 +48,12 @@ export default ({ data, pageContext, location }) => {
       {!!sponsor.buyMeACoffeeId && (
         <SponsorButton sponsorId={sponsor.buyMeACoffeeId} />
       )}
-      <AdsBlock />
+      <AdsBlock
+        slot="6677227755"
+        style={{ display: 'block', marginTop: '32px' }}
+        format="auto"
+        responsive='true'
+       />
       <Elements.Hr />
       <Bio />
       <PostNavigator pageContext={pageContext} />

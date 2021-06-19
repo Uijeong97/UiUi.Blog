@@ -2,18 +2,19 @@ import React from 'react'
 import AdSense from 'react-adsense'
 import { StaticQuery, graphql } from 'gatsby'
 
-export const AdsBlock = () => (
+export const AdsBlock = ({slot, style, layout, layoutKey, format, responsive}) => (
     <StaticQuery
       query={adsQuery}
       render={data => {
         const { adsense } = data.site.siteMetadata
-  
         return (<AdSense.Google
                     client={adsense.client}
-                    slot={adsense.slot}
-                    style={{ display: 'block' }}
-                    format='auto'
-                    responsive='true'
+                    slot={slot}
+                    style={style}
+                    layout={layout}
+                    layoutKey={layoutKey}
+                    format={format}
+                    responsive={responsive}
                 />)
       }}/>
 )
@@ -24,7 +25,6 @@ const adsQuery = graphql`
             siteMetadata {
             adsense {
                 client
-                slot
             }
             }
         }
