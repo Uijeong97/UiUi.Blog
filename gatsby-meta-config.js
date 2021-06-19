@@ -35,7 +35,7 @@ module.exports = {
   },
   ga: 'UA-166330915-1', // Add your google analytics tranking ID
   adsense: {
-    client: 'ca-pub-7292810486004926',
+    client: 'ca-pub-6104636711091615',
     slot: '4727548087',
   }
 }
