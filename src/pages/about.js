@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import { Head } from '../components/head'
 import { rhythm } from '../utils/typography'
 import * as Lang from '../constants'
+import { Top } from '../components/top'
 
 import '../styles/resume.scss'
 
@@ -14,7 +15,8 @@ export default ({ data }) => {
     .map(({ node }) => node)[0]
 
   return (
-    <>
+    <React.Fragment>
+      <Top title={data.site.siteMetadata.title}/>
       <Head
         title={resumeData.title}
         description={resumeData.description}
@@ -33,7 +35,7 @@ export default ({ data }) => {
       >
         <div dangerouslySetInnerHTML={{ __html: resume.html }} />
       </div>
-    </>
+    </React.Fragment>
   )
 }
 
@@ -41,6 +43,7 @@ export const pageQuery = graphql`
   query {
     site {
       siteMetadata {
+        title
         resume {
           title
           description

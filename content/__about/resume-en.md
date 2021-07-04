@@ -29,7 +29,7 @@ lang: 'en'
 
 - 20.06 ~ 21.04
 - Tensorflow, Pytorch, Python
-- SW 마에스트로 11기 인증 프로젝트
+- SW 마에스트로 11기 우수 프로젝트
 
 <br>
 
@@ -62,15 +62,17 @@ EBS와 산학협력으로 진행한 교재의 출판 수요를 예측하는 프�
 
 - 18.07 ~ 18.09
 - Team Leader (12명이 참여하는 해당 프로젝트 총괄)
-- 한국교육방송공사 표창장
+- 한국교육방송공사 사장 표창
 - [Description](ebs_desc.md)
 
 ## Activities
 
+- [운동 자세 평가 장치 및 그 동작 방법 특허 등록, 2021](https://drive.google.com/file/d/11Ij4bjhBtrfCMGSIZgM48SysQLjJ-Ygv/view)
 - Naver corperation AI 개발 인턴, 2021
-- Software Maestro 11기 우수자(TOP 15), 2020
+- [Software Maestro 11기 우수자(TOP 15), 2020](https://www.swmaestro.org/sw/singl/projectIntc/list.do?menuNo=200013)
 - 골프 자세 분석 파이프라인 특허 출원, 2020
-- IEEE IRC Robotics 학회 논문 게재, 2020
+- [IEEE IRC Robotics 학회 논문 게재, 2020](Stealth UAV through Coanda Effect
+  )
 - 동국대학교 빅데이터 팜 회장, 2019
 - Hi-SW 봉사단 활동, 2018
 - 시각장애인을 위한 e-book 플랫폼 연구(기술이전), 2018
@@ -78,11 +80,15 @@ EBS와 산학협력으로 진행한 교재의 출판 수요를 예측하는 프�
 
 ## Awards and Honors
 
-- EBS 수능교재 출판수요 예측 프로젝트 / 표창장 / 2018년 10월 24일 / 한국교육방송공사 사장 장해랑
-- IITP-Purdue Summer Program 2019 / Certificate of Merit / 2019년 8월 / Purdue University Eric T. Matson Professor
-- 제 4회 동국 SW 공모대전 / 금상 / 2019년 11월 27일 / 동국대학교 융합교육원 원장 이강우
-- FARM ICT 아이디어 경진대회 / 우수상 / 2019년 11월 27일 / 동국대학교 융합교육원 원장 이강우
-- 제 12회 TOPCIT 정기 평가 / 우수상(전체 상위 10% 이내 수혜) / 2019년 12월 12일 / 동국대학교 융합교육원 원장 이강우
+- [과학기술정보통신부 주관 SW마에스트로 우수자 장관 표창, 2021](https://github.com/Uijeong97/Uijeong97/blob/main/docs/2021%20SW%E1%84%86%E1%85%A1%E1%84%8B%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%E1%84%85%E1%85%B3%2011%E1%84%80%E1%85%B5%20%E1%84%8B%E1%85%AE%E1%84%89%E1%85%AE%E1%84%8C%E1%85%A1%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B3%E1%86%BC%E1%84%89%E1%85%A5.pdf)
+- [5th place in Dacon AI Vision Competition, 2021](https://dacon.io/competitions/official/235697/talkboard/402704?dtype=recent)
+- [DGU AI ICC 주관 인공지능 챌린지 대상, 2020](https://github.com/Uijeong97/Uijeong97/blob/main/docs/2020%20%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EC%B1%8C%EB%A6%B0%EC%A7%80%20%EB%8C%80%EC%83%81.pdf)
+- [DGU 창업 프리미어리그 우수상, 2020](https://github.com/Uijeong97/Uijeong97/blob/main/docs/2020%20%EB%8F%99%EA%B5%AD%20%ED%94%84%EB%A6%AC%EB%AF%B8%EC%96%B4%20%EB%A6%AC%EA%B7%B8%20%EC%9A%B0%EC%88%98%EC%83%81.pdf)
+- [제 4회 동국 SW공모대전 금상, 2019](https://github.com/Uijeong97/Uijeong97/blob/main/docs/2019%20%EC%A0%9C%204%ED%9A%8C%20%EB%8F%99%EA%B5%AD%20SW%20%EA%B3%B5%EB%AA%A8%EB%8C%80%EC%A0%84%20%EA%B8%88%EC%83%81.pdf)
+- [FARM ICT 아이디어 경진대회 우수상, 2019](https://github.com/Uijeong97/Uijeong97/blob/main/docs/2019%20FARM%20ICT%20%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C%20%EC%9A%B0%EC%88%98%EC%83%81.pdf)
+- [제 12회 TOPCIT 정기평가 우수상, 2019](https://github.com/Uijeong97/Uijeong97/blob/main/docs/2019%20TOPCIT%20%EC%A0%95%EA%B8%B0%ED%8F%89%EA%B0%80%20%EC%9A%B0%EC%88%98%EC%83%81.pdf)
+- [IITP-Purdue Summer Program Certificate of Merit, 2019](https://github.com/Uijeong97/Uijeong97/blob/main/docs/2019%20Purdue%20Summer%20Program.pdf)
+- [한국교육방송공사 사장 표창, 2018](https://github.com/Uijeong97/Uijeong97/blob/main/docs/2018%20%ED%95%9C%EA%B5%AD%EA%B5%90%EC%9C%A1%EB%B0%A9%EC%86%A1%EA%B3%B5%EC%82%AC%20%ED%91%9C%EC%B0%BD%EC%9E%A5.pdf)
 
 ## Technical Skills
 
